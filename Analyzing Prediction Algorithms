@@ -1,0 +1,24 @@
+Prasanth Dhulipalla
+6/1/16
+DataRobot
+
+Analyzing Prediction Algorithms
+
+	The quality of prediction algorithms shares a direct relationship with the quality of the original data. 
+	Small sample sizes are inconclusive; the observed relationships may be due to coincidence rather than an actual 
+	cause-effect interaction. Because of this, data sets must have a large sample size. Another rule states that even 
+	if the data says one influences the other, one has to be wary. Correlation does not always equal causation. If the data 
+	relates televisions to health care, Google may predict that buying televisions will improve your health care. But in 
+	reality, televisions and health care have very little to do with one  another (the reason it seems that way is because
+	people who can afford health care usually have televisions and vice versa). However, if the data relates doctors to 
+	televisions and detects a correlation, then it is a justifiable conclusion to say that more doctors equals better 
+	health care.  Another problem is outliers. Outliers will skew the data in the wrong direction, even though they are a 
+	special case, Regression algorithms still take that into account, and the analytics will be messed up. A good prediction 
+	requires few outliers, a large sample size and data that has prior relation to each other. 
+	
+	An example of this is stock analysis, more specifically Stockfluence, a financial algorithm that returns sentiment 
+	analysis for investors. The prediction analysis is better since it has a bigger sample size than most other data 
+	sets. Although this is true, the data has a lot of outliers due to the unstable nature of the market. However, the
+	prediction API does the best it can do in this scenario. It has a 70% accuracy rating which is very good, considering 
+	it is trying to predict a market that is incredibly volatile. All things considered, the Stockfluence algorithm is 
+	fairly efficient considering the unfavorable circumstances it has to operate in.
